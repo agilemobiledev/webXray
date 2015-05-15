@@ -1,5 +1,7 @@
 # webXray
-webXray is a tool for detecting third-party HTTP requests on large numbers of web pages and matching them to the companies which receive user data.
+webXray is a tool for detecting third-party HTTP requests on large numbers of web pages and matching them to the companies which receive user data.  
+
+More information may be found on the [project website](http://webxray.org).
 
 # Why
 Third-party HTTP requests are the lowest-level mechanism by which user data may be surreptitiously disclosed to unknown parties on the web. This may be for perfectly benign reasons, such as an embedded a picture from another site, or it may be a form of surveillance utilizing tracking pixels, cookies, or even sophisticated fingerprinting techniques.
