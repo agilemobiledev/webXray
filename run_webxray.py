@@ -252,7 +252,7 @@ def collect(db_name, pages_file_name):
 	# the best way to play with this is start low and do a run of 500 pages, then increment x2
 	#	until your numbers start to go down, then ease back
 	#
-	pool_size = 16
+	pool_size = 4
 
 	# custom classes
 	from webxray.Collector import Collector

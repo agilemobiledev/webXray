@@ -22,8 +22,38 @@ This program needs the following to run:
 	
 I have had the best luck with going with the "Platform Independent" version of MySQL Python Connector.  Make sure you use Python3 to install it.
 
-# Usage
-Once you have met the above dependencies and downloaded webXray all you need to do is edit your MySQL configuration information in webxray/MySQLDriver.py.  Next, place a list of page addresses in the 'page\_lists' directory; webXray comes with an example page list which you may use on first run.  Once this is done simply run the command 'python3 run\_webxray.py -i'.  You will be given options to collect and analyze data; the first thing you must do is collect data so you may analyze it.  Data which has been analyzed will be saved to a directory titled 'reports'.  See webxray/Reports.py for more details.
+# Installation
+
+If the dependencies above are met all you need to do is clone this repo:
+
+	git clone https://github.com/timlib/webXray.git
+
+If you need additional help the webXray website has detailed instructions for [Ubuntu](http://webxray.org/#ubuntu) and [Mac OS X](http://webxray.org/#mac).
+
+# First Run
+To start webXray in interactive mode type:
+
+	python3 run_webxray.py -i
+
+The prompts will guide you to scanning the top 1,000 Alexa websites.
+
+# Using webXray to Analyze Your Own List of Pages
+The entire point of webXray is to allow you to analyze pages of your choosing.  In order to do so, first place all of the page addresses you wish to scan into a text file and place this file in the "page\_lists" directory.  Make sure your addresses start with "http", if not, webXray will not recognize them as valid addresses.  Once you have placed your page list in the proper directory you may run webXray in interactive mode and it will allow you to select your page list.  Easy-peasy.
+
+# Viewing Reports
+Use the interactive mode to guide you to generating an analysis.  When it is completed it will be output to the '/reports' directory.  This will contain a number of csv files; they are:
+
+* db\_summary: a basic report of how many pages loaded, how many errors, basic stats
+* summary\_by\_tld: gives more stats on how many domains are contacted, cookies, javascript, etc.
+* domains-by-tld: the most frequently contacted domains, by tld
+* elements-by-tld: most frequent elements, any type<
+* elements-by-tld-image: most frequent elements, images
+* elements-by-tld-javascript:	most frequent elements, javascript
+* orgs-by-tld: this is the most interesting bit, shows all the top companies who own the domains which are being contacted - relies on the data in webxray/resources/org\_domains/org\_domains.json which was compiled manually and should be expanded.
+* network: pairings between page domains and tracker domains, you can import this info to data viz software to do cool stuff - this is something worth heavy tweaking if it's of particular interest to you!
+
+# Important Note on Speed
+webXray can analyze many pages in parallell and has achieved speeds up to 30,000 pages per hour.  However, out-of-the-box webXray is configured to only scan four pages in parallell.  If you think your system can handle more (and chances are it can!), open the 'run\_webxray.py' file and search for the string 'pool\_size' - when you find that there are instructions on how to increase the numbers of pages you can do concurrently.  The bigger you can make pool\_size, the faster you will go.
 
 # License
 webXray is FOSS and licensed under GPLv3, see LICENSE.md for details.
