@@ -7,7 +7,7 @@ Third-party HTTP requests are the lowest-level mechanism by which user data may 
 # How
 As a departure from existing tools, webXray facilitates the identification of the real-world entities to which requests are made by correlating domain request with the owners of domains. In other words, webXray allows you to see which companies are monitoring which pages.
 
-The core of webXray is a python program which ingests addresses of webpages, passes them to the headless web browser phantomjs, and parses requests in order to determine those which go to domains which are exogenous to the primary (or first-party) domain of the site. This data is then stored in MySQL for later analysis. Future revisions of webXray will implement SQLite for those wishing to investigate smaller volumes of pages without installing or managing a major database server.
+The core of webXray is a python program which ingests addresses of webpages, passes them to the headless web browser PhantomJS, and parses requests in order to determine those which go to domains which are exogenous to the primary (or first-party) domain of the site. This data is then stored in MySQL for later analysis. Future revisions of webXray will implement SQLite for those wishing to investigate smaller volumes of pages without installing or managing a major database server.
 
 # Who
 webXray was originally developed for academic research, but may be used by anybody with an interest in the hidden structures of the web, privacy, and surveillance.
