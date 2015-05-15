@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS sub_domain_tld;
+CREATE TABLE IF NOT EXISTS sub_domain_tld(sub_domain_md5 VARCHAR(32) UNIQUE,sub_domain MEDIUMTEXT,domain_md5 VARCHAR(32),domain MEDIUMTEXT,pubsuffix_md5 VARCHAR(32),pubsuffix VARCHAR(255),tld_md5 VARCHAR(32),tld VARCHAR(255),PRIMARY KEY(sub_domain_md5));

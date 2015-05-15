@@ -1,0 +1,298 @@
+// the public suffix list doesn't have most of the ccSLDs
+// so I had to get them from wikipedia manually :-/
+// current as of 20150514
+
+// .bd
+// https://en.wikipedia.org/wiki/.bd
+com.bd
+edu.bd
+ac.bd
+net.bd
+gov.bd
+org.bd
+mil.bd
+
+// .bn
+// https://en.wikipedia.org/wiki/.bn
+com.bn
+edu.bn
+gov.bn
+net.bn
+org.bn
+
+// .ck
+// https://en.wikipedia.org/wiki/.ck
+co.ck
+org.ck
+edu.ck
+gov.ck
+net.ck
+gen.ck
+biz.ck
+info.ck
+
+// .cy
+// https://en.wikipedia.org/wiki/.cy
+ac.cy
+net.cy
+gov.cy
+org.cy
+pro.cy
+name.cy
+ekloges.cy
+tm.cy
+ltd.cy
+biz.cy
+press.cy
+parliament.cy
+com.cy
+
+// .er
+// https://en.wikipedia.org/wiki/.er
+com.er
+edu.er
+gov.er
+mil.er
+net.er
+org.er
+ind.er
+
+// .fj
+// http://en.wikipedia.org/wiki/.fj
+ac.fj
+biz.fj
+com.fj
+info.fj
+mil.fj
+name.fj
+net.fj
+org.fj
+pro.fj
+
+// .fk
+// http://en.wikipedia.org/wiki/.fk
+co.fk
+org.fk
+gov.fk
+ac.fk
+nom.fk
+net.fk
+
+// .gu
+// https://en.wikipedia.org/wiki/.gu
+com.gu
+net.gu
+gov.gu
+org.gu
+edu.gu
+
+// .il
+// https://en.wikipedia.org/wiki/.il
+ac.il
+co.il
+org.il
+net.il
+k12.il
+gov.il
+muni.il
+idf.il
+
+// .jm
+// https://en.wikipedia.org/wiki/.jm
+com.jm
+net.jm
+org.jm
+edu.jm
+gov.jm
+mil.jm
+
+// .ke
+// https://en.wikipedia.org/wiki/.ke
+co.ke
+or.ke
+ne.ke
+go.ke
+ac.ke
+sc.ke
+me.ke
+mobi.ke
+info.ke
+
+// .kh
+// https://en.wikipedia.org/wiki/.kh
+per.kh
+com.kh
+edu.kh
+gov.kh
+mil.kh
+net.kh
+org.kh
+
+// .kw
+// https://en.wikipedia.org/wiki/.kw
+edu.kw
+com.kw
+net.kw
+org.kw
+gov.kw
+
+// .mm
+// https://en.wikipedia.org/wiki/.mm
+net.mm
+com.mm
+edu.mm
+org.mm
+gov.mm
+
+// .mt
+// https://en.wikipedia.org/wiki/.mt
+com.mt
+org.mt
+net.mt
+edu.mt
+gov.mt
+
+// .mz
+// https://en.wikipedia.org/wiki/.mz
+adv.mz
+ac.mz
+co.mz
+org.mz
+gov.mz
+edu.mz
+
+// .ni
+// https://en.wikipedia.org/wiki/.ni
+gob.ni
+co.ni
+com.ni
+ac.ni
+edu.ni
+org.ni
+nom.ni
+net.ni
+mil.ni
+
+// .np
+// https://en.wikipedia.org/wiki/.np
+aero.np
+asia.np
+biz.np
+com.np
+coop.np
+edu.np
+gov.np
+info.np
+jobs.np
+mil.np
+mobi.np
+museum.np
+name.np
+net.np
+org.np
+pro.np
+travel.np
+
+// .pg
+// https://en.wikipedia.org/wiki/.pg
+com.pg
+net.pg
+ac.pg
+gov.pg
+mil.pg
+org.pg
+
+// .tr
+// https://en.wikipedia.org/wiki/.tr
+nc.tr
+nic.tr
+tsk.tr
+
+// .uk
+// https://en.wikipedia.org/wiki/.uk
+// moz list is incomplete
+ac.uk
+co.uk
+gov.uk
+judiciary.uk
+ltd.uk
+me.uk
+mod.uk
+net.uk
+nhs.uk
+nic.uk
+org.uk
+parliament.uk
+plc.uk
+police.uk
+sch.uk
+bl.uk
+british-library.uk
+jet.uk
+nls.uk
+icnet.uk
+govt.uk
+orgn.uk
+lea.uk
+mil.uk
+nel.uk
+
+// .ye
+// https://en.wikipedia.org/wiki/.ye
+com.ye
+co.ye
+ltd.ye
+me.ye
+net.ye
+org.ye
+plc.ye
+gov.ye
+
+// .za
+// https://en.wikipedia.org/wiki/.za
+c.za
+co.za
+edu.za
+gov.za
+law.za
+mil.za
+nom.za
+org.za
+school.za
+ecape.school.za
+fs.school.za
+gp.school.za
+kzn.school.za
+mpm.za
+ncape.school.za
+lp.school.za
+nw.school.za
+wcape.school.za
+// .za dormant
+alt.za
+net.work.za
+ngo.za
+tm.za
+web.za
+// za private
+agric.za
+grondar.za
+inca.za
+nis.za
+
+// .zm
+// https://en.wikipedia.org/wiki/.zm
+ac.zm
+co.zm
+com.zm
+edu.zm
+gov.zm
+net.zm
+org.zm
+sch.zm
+
+// .zw
+// https://en.wikipedia.org/wiki/.zw
+ac.zw
+co.zw
+org.zw
