@@ -37,7 +37,7 @@ To start webXray in interactive mode type:
 
 	python3 run_webxray.py -i
 
-The prompts will guide you to scanning the top 1,000 Alexa websites.
+The prompts will guide you to scanning either the top 50 or 1,000 Alexa websites.
 
 # Using webXray to Analyze Your Own List of Pages
 The entire point of webXray is to allow you to analyze pages of your choosing.  In order to do so, first place all of the page addresses you wish to scan into a text file and place this file in the "page\_lists" directory.  Make sure your addresses start with "http", if not, webXray will not recognize them as valid addresses.  Once you have placed your page list in the proper directory you may run webXray in interactive mode and it will allow you to select your page list.  Easy-peasy.
