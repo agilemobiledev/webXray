@@ -332,15 +332,6 @@
 		]
 	},
 	{
-		"organization"	:	"Blue Kai",
-		"notes"			:	"",
-		"country"		:	"US",
-		"domains"		:	[
-			"bkrtx.com",
-			"bluekai.com"
-		]
-	},
-	{
 		"organization"	:	"Casale Media",
 		"notes"			:	"",
 		"country"		:	"CA",
@@ -1334,6 +1325,15 @@
 		"country"		:	"US",
 		"domains"		:	[
 			"optimizely.com"
+		]
+	},
+	{
+		"organization"	:	"Oracle",
+		"notes"			:	"Blue Kai was acquired by Oracle",
+		"country"		:	"US",
+		"domains"		:	[
+			"bkrtx.com",
+			"bluekai.com"
 		]
 	},
 	{
